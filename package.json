@@ -1,0 +1,12 @@
+{
+  "name": "screen-capture-every-second",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Save a screenshot every second in the screens folder beside the script.",
+  "scripts": {
+    "start": "node capture.cjs",
+    "test": "node --test test/capture.test.cjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "node-screenshots": "0.2.8" }
+}
